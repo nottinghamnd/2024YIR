@@ -1,0 +1,80 @@
+a:hover{
+    /* text-decoration: underline; */
+    font-weight: bold;
+}
+a{
+    color: azure;
+    text-decoration: none;
+}
+a:visited{
+    color: azure;
+    text-decoration: none;
+}
+body{
+    background-image: url(toast.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.common{
+    text-align: center;
+    /* background-color: azure; */
+    /* background-image: url(toast.jpg); */
+}
+.top{
+    /* background-color: navy; */
+    position: absolute;
+    top: 30%;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    color: azure;
+    border: 5px lightblue;
+    margin: 5px;
+    font-size: 100px;
+    padding: 0px;
+    
+
+}
+.nav{
+    background-color: rgba(0, 0, 0, 0.251);
+    position: sticky;
+    right: 0px;
+    left: 0px;
+    top: 10px;
+    margin: 25%;
+    color: azure;
+    font-size: 20px;
+
+}
+.content{
+    /* position: relative; */
+    top: 400px;
+    /* left: 100px;
+    right: 100px;
+    bottom: 100px; */
+    background-color: rgba(0, 0, 0, 0.255);
+    color: azure;
+    font-size: 100%;
+    margin: 25%;
+
+}
+.bottom{
+    /* position: absolute; */
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.27);
+    color: azure;
+    margin: 5px;
+}
+.event{
+    text-align: center;
+    width: 75%;
+    border: 5px black;
+}
+.event:hover{
+    width: 100%;
+}
